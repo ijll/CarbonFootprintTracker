@@ -97,11 +97,11 @@ Create a folder named templates in the same directory as your Python script. I
 
 index.html
 
-<!DOCTYPE html><html lang="en"><head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>EcoTrack - Carbon Footprint Calculator</title></head><body>     <h1>EcoTrack</h1>     <p>Calculate your carbon footprint!</p>     <form method="POST">         <label for="activity">Select Activity:</label>         <select name="activity" id="activity">             <option value="driving">Driving</option>             <option value="flying">Flying</option>             <option value="electricity">Electricity Usage</option>             <option value="meat_diet">Meat Diet</option>             <option value="public_transport">Public Transport</option>         </select>         <br><br>         <label for="hours">Hours/Days per Year:</label>         <input type="number" name="hours" id="hours" required>         <br><br>         <button type="submit">Calculate</button>     </form></body></html>
+```<!DOCTYPE html><html lang="en"><head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>EcoTrack - Carbon Footprint Calculator</title></head><body>     <h1>EcoTrack</h1>     <p>Calculate your carbon footprint!</p>     <form method="POST">         <label for="activity">Select Activity:</label>         <select name="activity" id="activity">             <option value="driving">Driving</option>             <option value="flying">Flying</option>             <option value="electricity">Electricity Usage</option>             <option value="meat_diet">Meat Diet</option>             <option value="public_transport">Public Transport</option>         </select>         <br><br>         <label for="hours">Hours/Days per Year:</label>         <input type="number" name="hours" id="hours" required>         <br><br>         <button type="submit">Calculate</button>     </form></body></html>```
 
 result.html
 
-<!DOCTYPE html><html lang="en"><head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>EcoTrack - Result</title></head><body>     <h1>EcoTrack</h1>     <p>Your carbon footprint for <strong>{{ activity }}</strong> is:</p>     <h2>{{ footprint }} tons CO2/year</h2> </body></html>
+```<!DOCTYPE html><html lang="en"><head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>EcoTrack - Result</title></head><body>     <h1>EcoTrack</h1>     <p>Your carbon footprint for <strong>{{ activity }}</strong> is:</p>     <h2>{{ footprint }} tons CO2/year</h2> </body></html>```
 
 
 4. Run the Application
