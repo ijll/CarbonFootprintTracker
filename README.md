@@ -4,7 +4,7 @@ EcoTrack - Carbon Footprint Tracker
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# icon app footprint carbon
+# Icon app footprint carbon
 ![](FootPrintTracker.jpeg)
 
 # EcoTrack - Carbon Footprint Tracker
