@@ -101,7 +101,8 @@ index.html
 
 result.html
 
-<!DOCTYPE html><html lang="en"><head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>EcoTrack - Result</title></head><body>     <h1>EcoTrack</h1>     <p>Your carbon footprint for <strong>{{ activity }}</strong> is:</p>     <h2>{{ footprint }} tons CO2/year</h2>     <a href="/">Go Back</a></body></html>
+<!DOCTYPE html><html lang="en"><head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>EcoTrack - Result</title></head><body>     <h1>EcoTrack</h1>     <p>Your carbon footprint for <strong>{{ activity }}</strong> is:</p>     <h2>{{ footprint }} tons CO2/year</h2> </body></html>
+
 
 4. Run the Application
 
