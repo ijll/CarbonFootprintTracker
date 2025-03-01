@@ -5,7 +5,7 @@ created by Reaktor Innovations and University of Helsinki.
 Copy the template, paste it to your GitHub README and edit! -->
 
 # Icon app footprint carbon
-![](CarbonFootPrintTracker.jpeg)
+![](CarbonFootPrinter.jpeg)
 
 # EcoTrack - Carbon Footprint Tracker
 
